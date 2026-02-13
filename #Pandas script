@@ -1,0 +1,21 @@
+#Pandas script 
+
+sed '/zoo/Id' pandas.tsv > panda_zoos.txt
+
+awk -F '\t' '{print $1,$2,$3}' pandas.tsv| sort -k3,3 > sorted_pandas.txt 
+
+grep -i "zoo\|reserve" pandas.tsv | sort > panda_zoos_A2Z.txt 
+
+sed -e 's/male/M/g' -e 's/female/F/g' pandas.tsv > panda_m_f.txt 
+
+grep -i 'female' pandas.tsv| grep -i 'oct'| wc -l 
+
+nl pandas.tsv > pandas_names.txt 
+
+sed -n '1p;6p;17p' pandas.tsv > lines_1_6_17.txt
+
+grep -i 'x' pandas.tsv > x_lines.txt
+
+awk -F '\t' '{count [$4] ++ ; line [$4]=$0} END {for(loc in count) if (count [loc] == 1) print line [loc]}' pandas.tsv > unique_places.txt
+
+awk -F'\t' 'NR>1 { split($3, parts, "_"); birthyear = parts[1]; age = 2024 - birthyear; if (age <= 10) print $1, age }' pandas.tsv | sort -k2,2n > young_pandas.txt
