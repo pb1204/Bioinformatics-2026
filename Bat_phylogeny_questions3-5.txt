@@ -1,0 +1,19 @@
+Bat tree
+3. Task\ label=bat_tree5
+Task\ ID=3308787
+Tool=RAXMLHPC8_XSEDE
+created\ on=2026-02-24 12:24:30.0
+JobHandle=NGBW-JOB-RAXMLHPC8_XSEDE-0270FB1EFBA94AC3A192A1E61D3A8AC3
+RunNumber=1
+resource=expanse
+User\ ID=178430
+User\ Name=pb1716
+email=peliah.l.bowers@wmich.edu
+Output=(all_outputfiles,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=40
+JOBID=46732790
+
+4. Dobsonia viridis, Epomorphus wahlbergi, Rousettus leschenaultii, Cynopterus sphinx, and Syconycteris australis
+
+5. Phylogeny is useful in recent times because it allows us to see biological change. Some examples I feel is really important about phylogeny during this time is seeing the spread of diseases and seeing the evolution of new variants. 
