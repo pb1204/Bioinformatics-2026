@@ -39,6 +39,8 @@ running:
 raxmlHPC-HYBRID-AVX -T 4 -f a -n bat_tree -s infile.txt -c 25 -p 12345 -N 100 -m PROTCATDAYHOFF -x 12345
 running:
 raxmlHPC-HYBRID-AVX -T 4 -f a -n bat_tree -s infile.txt -c 25 -p 12345 -N 100 -m PROTCATDAYHOFF -x 12345
+muscle -seqtype protein -in infile.fasta -maxiters 16 -hydro 5 -hydrofactor 1.2 -log logfile.txt -weight1 clustalw -distance1 kmer6_6 -cluster1 upgmb -sueff 0.1 -root1 pseudo -maxtrees 1 -weight2 clustalw -distance2 pctidkimura -cluster2 upgmb -sueff 0.1 -root2 pseudo -objscore sp -noanchors -fastaout output.fasta 
+Finished Tue Feb 24 11:51:28 2026
 
 4. Dobsonia viridis, Epomorphus wahlbergi, Rousettus leschenaultii, Cynopterus sphinx, and Syconycteris australis
 
