@@ -1,0 +1,13 @@
+CHOPCHOP:
+
+1. Bacillus anthracis
+
+2. nrdF
+
+3. CTTTTAGATACGAAACAAGGCGG and NC_007530.2:1308435
+
+4. Pair 1
+Left primer: TGACAAAAATACTTGGGTGCAA and NC_007530.2:1308362-1308384
+Right primer: CCAGCCTTTTTCTCAAGTAACG and NC_007530.2:1308628-1308650
+
+5. The nrdF gene is important for DNA synthesis, repair, and proliferation in aerobic conditions for Bacillus anthracis so if this gene is knocked out then growth will be inhibited under aerobic conditions. Since Bacillus anthracis is an anaerobic facultative maybe there is another gene that is important for Bacillus anthracis to grow in anaerobic conditions so infection can not take hold.
